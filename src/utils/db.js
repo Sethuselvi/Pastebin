@@ -1,5 +1,4 @@
-// Using Node.js `require()`
-const mongoose = require('mongoose');
+import mongoose from 'mongoose'
 let isConnected = false;
 export const connect = async () =>{
     if(isConnected) return;
